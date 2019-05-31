@@ -23,8 +23,14 @@ hr {
 }
 
 .select i {
-    font-size: 10vw;
+    font-size: 13vw;
     margin: 3% 7%;
+}
+
+@media (min-width: 768px) {
+    .select i {
+        font-size: 10vw;
+    }
 }
 
 .select i:hover {
